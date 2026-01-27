@@ -172,7 +172,8 @@ class RichardsWolf:
         # Phases from the incident field
         self.Phase_x_inc = np.angle(self.E_inc_vec[..., 0])
         self.Phase_y_inc = np.angle(self.E_inc_vec[..., 1])
-        self.Phase_yx_inc = np.angle(self.E_inc_vec[..., 1]/self.E_inc_vec[..., 0])
+        #self.Phase_yx_inc = np.angle(self.E_inc_vec[..., 1]/self.E_inc_vec[..., 0])
+        self.Phase_yx_inc = self.Phase_y_inc - self.Phase_x_inc
         
         # Total incident intensity
         self.I_inc = np.linalg.norm(self.E_inc_vec, axis=-1)**2
