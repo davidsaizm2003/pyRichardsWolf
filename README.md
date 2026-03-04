@@ -126,6 +126,6 @@ Photonics Research, 11(7), 1326–1338 (2023).
 
 ## Author
 
-David Saiz Martínez  
+David Sáiz Martínez  
 Bachelor’s Thesis in Physics  
 Universitat de Barcelona
